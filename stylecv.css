@@ -1,0 +1,41 @@
+div{
+  float: left;
+}
+#blue{
+  background-color: #302C2D;
+  height: 400px;
+  width: 100%;
+  color: #FFFFFF;
+}
+#bluec{
+  background-color: #16A086;
+  height: 200px;
+  width: 100%;
+}
+#yellow{
+  background-color: #F39C11;
+  height: 170px;
+  width: 100%;
+}
+#red{
+  background-color: #E84C3D;
+  height: 200px;
+  width: 100%;
+}
+#black{
+  background-color: #2D3E50;
+  height: 400px;
+  width: 100%;
+}
+.emoji{
+  margin-right: 1000px;
+  width: 150px;
+  margin-left: 10%;
+  margin-top: -7%;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
