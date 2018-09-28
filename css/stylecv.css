@@ -1,0 +1,28 @@
+
+#grey{
+  background-color: #302C2D;
+  color: #FFFFFF;
+}
+#bluec{
+  background-color: #16A086;
+}
+#yellow{
+  background-color: #F39C11;
+}
+#red{
+  background-color: #E84C3D;
+
+}
+#blueb{
+  background-color: #0a6b9B;
+
+}
+#black{
+  background-color: #08000a;
+}
+.emoji{
+  width: 30%;
+}
+.align{
+  text-align: center;
+}
