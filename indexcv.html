@@ -4,51 +4,65 @@
   <meta charset="utf-8">
   <title>Mon cv</title>
   <link rel="stylesheet" type="text/css" href="css/stylecv.css">
-  <link rel="stylesheet" type="text/css" href="bootstap/css/bootstap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
   <div class="container-fluid">
-    <div id="grey">
-      <h1 class="text-center">Simonot Cyril</h1>
-      <h2 class="text-center">Developpeur web junior</h2>
-      <img class="emoji" img src="image/emoji1.png" alt="Photo emoji">
-      <ul>
-        <li class="text-right">14 rue pépin le bref</li>
-        <li class="text-right">02200 Soissons</li>
-        <li class="text-right">Tél : 0670142561</li>
-        <li class="text-right">Adresse mail : <a href="cyrilsimonot@yahoo.fr">cyrilsimonot@yahoo.fr</a></li>
-      </ul>
+    <div class="row" id="grey">
+      <!-- container grey-->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <img class="emoji" img src="image/emoji1.png" alt="Photo emoji">
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <h1 class="align">Simonot Cyril</h1>
+        <h2 class="align">Developpeur web junior</h2>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <ul>
+          <li>14 rue pépin le bref</li>
+          <li>02200 Soissons</li>
+          <li>Tél : 0670142561</li>
+          <li>Adresse mail : <a href="cyrilsimonot@yahoo.fr">cyrilsimonot@yahoo.fr</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="bluec">
+    <!-- container bluec changer les col si il y a plusieurs blocs-->
+    <div class="row" id="bluec">
       <h1>Développement</h1>
     </div>
-    <div id="yellow">
-      <h1>Diplômes</h1>
-      <ul>
-        <li>2017 - <strong>Titre professionnel</strong> de préparateur de commandes en entrepôt</li>
-        <li>2007 - Niveau <strong>BTS mécanique et automatismes industriels</strong> -Lycée Léonard de Vinci</li>
-        <li>2005 - Obtention du <strong>Bac STI électronique</strong> avec mention - Lycée Léonard de Vinci</li>
-      </ul>
+    <!--ligne des 3 blocs-->
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="yellow">
+        <h1>Diplômes</h1>
+        <ul>
+          <li>2017 - <strong>Titre professionnel</strong> de préparateur de commandes en entrepôt</li>
+          <li>2007 - Niveau <strong>BTS mécanique et automatismes industriels</strong> -Lycée Léonard de Vinci</li>
+          <li>2005 - Obtention du <strong>Bac STI électronique</strong> avec mention - Lycée Léonard de Vinci</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12  col-xs-12" id="red">
+        <h1>Expériences</h1>
+        <ul>
+          <li>2008-2018 - <strong>Préparateur de commandes</strong> - nombreuses missions en intérim - Kuehne Nagel à Villeuve-St-Germain</li>
+          <li>De juillet 2014 à décembre 2015 - <strong>Préparateur de commandes</strong> - Mission de 18 mois - Orexad à Ploisy</li>
+          <li>Juillet/août 2004 et 2005 - <strong>Aide bobineur</strong> (job d'été) pour la Rochette à Venizel</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="blueb">
+        <h1>Compétences</h1>
+        <ul>
+          <li>atom</li>
+          <li>terminal</li>
+          <li>ubuntu</li>
+          <li>windows</li>
+        </ul>
+      </div>
     </div>
-    <div id="red">
-      <h1>Expériences</h1>
-      <ul>
-        <li>2008-2018 - <strong>Préparateur de commandes</strong> - nombreuses missions en intérim - Kuehne Nagel à Villeuve-St-Germain</li>
-        <li>De juillet 2014 à décembre 2015 - <strong>Préparateur de commandes</strong> - Mission de 18 mois - Orexad à Ploisy</li>
-        <li>Juillet/août 2004 et 2005 - <strong>Aide bobineur</strong> (job d'été) pour la Rochette à Venizel</li>
-      </ul>
-    </div>
-    <div id="blueb">
-      <h1>Compétences</h1>
-      <ul>
-        <li>atom</li>
-        <li>terminal</li>
-        <li>ubuntu</li>
-        <li>windows</li>
-      </ul>
-    </div>
-    <div id="black">
-      <p>Liens</p>
+    <!--ligne black changer les col si il y a plusieurs blocs-->
+    <div class="row">
+      <div class="col-lg-12 col-md-4 col-sm-12 col-xs-12" id="black">
+        <p>Liens</p>
+      </div>
     </div>
   </div>
 </body>
