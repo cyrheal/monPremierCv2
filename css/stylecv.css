@@ -1,4 +1,3 @@
-
 #grey{
   background-color: #302C2D;
   color: #FFFFFF;
@@ -21,7 +20,10 @@
   background-color: #08000a;
 }
 .emoji{
-  width: 30%;
+  padding-top: 5%;
+   padding-bottom: 5%;
+   padding-left: 10%;
+  width: 50%;
 }
 .align{
   text-align: center;
